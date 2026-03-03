@@ -1,4 +1,4 @@
-<a href="{{ route('second', ['dashboard', 'control-center']) }}" class="app-logo flex-shrink-0" data-prefix="v5.2.0" data-action="playsound"
+<a href="" class="app-logo flex-shrink-0" data-prefix="v5.2.0" data-action="playsound"
    data-soundpath="media/sound/" data-soundfile="sawhisp.mp3">
     <!-- <img src="img/logo.svg" alt="logo"> -->
 
