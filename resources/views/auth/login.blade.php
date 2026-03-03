@@ -19,11 +19,11 @@
                     <div class="login-card p-4 p-md-6 bg-dark bg-opacity-50 translucent-dark rounded-4"
                          id="regular-login">
                         <h2 class="text-center mb-4">Login</h2>
-                        <p class="text-center text-white opacity-50 mb-4">Keep it all together and you'll be free</p>
+                        
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
                             <div class="mb-3">
-                                <label class="form-label" for="email">Email or Phone</label>
+                                <label class="form-label" for="email">Email</label>
                                 <input
                                     class="form-control form-control-lg text-white bg-dark border-light border-opacity-25 bg-opacity-25"
                                     id="email" name="email" required="" type="email"/>
@@ -45,13 +45,7 @@
                                 <a class="text-decoration-none small text-white" href="">Forgot
                                     Password?</a>
                             </div>
-                            <div class="divider small text-white opacity-25">or</div>
-                            <div class="d-grid mb-3">
-                                <button class="btn btn-dark bg-opacity-50 border-dark btn-lg" id="switchToToken"
-                                        type="button">
-                                    Login Using Token
-                                </button>
-                            </div>
+                            
                         </form>
                     </div>
                     <div class="login-card d-none p-4 p-md-6 bg-dark bg-opacity-50 translucent-dark rounded-4"
