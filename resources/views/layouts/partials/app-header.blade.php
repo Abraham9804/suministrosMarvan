@@ -149,9 +149,12 @@
 
         <div class="dropdown-divider m-0"></div>
 
-        <a class="dropdown-item py-3 fw-500 d-flex justify-content-between" href="">
-            <span class="text-danger" data-i18n="drpdwn.page-logout">Logout</span>
+        <form class="dropdown-item py-3 fw-500 d-flex justify-content-between" method="POST" action="{{ route('logout') }}">
+            @csrf
+            
+            <button class="btn p-0 text-danger" type="submit" class="text-danger" data-i18n="drpdwn.page-logout">Logout</button>
+            
             <span class="d-block text-truncate text-truncate-sm">@sunnyahmed</span>
-        </a>
+        </form>
     </div>
 </header>

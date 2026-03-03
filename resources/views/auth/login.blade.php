@@ -3,12 +3,12 @@
 @section('content')
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 py-3" style="z-index: 1000;">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('any', 'index') }}">
+            <a class="navbar-brand" href="#">
                 <img alt="logo" src="/img/logo-light.svg"/>
             </a>
             <div class="ms-auto d-flex gap-2">
-                <a class="btn btn-link text-white border-0 text-decoration-none" href="{{ route('second', [ 'auth' , 'login']) }}">Login</a>
-                <a class="btn btn-link text-white border-0 text-decoration-none" href="{{ route('second', [ 'auth' , 'register']) }}">Register</a>
+                <a class="btn btn-link text-white border-0 text-decoration-none" href="">Login</a>
+                <a class="btn btn-link text-white border-0 text-decoration-none" href="">Register</a>
             </div>
         </div>
     </nav>
@@ -20,19 +20,20 @@
                          id="regular-login">
                         <h2 class="text-center mb-4">Login</h2>
                         <p class="text-center text-white opacity-50 mb-4">Keep it all together and you'll be free</p>
-                        <form>
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
                             <div class="mb-3">
                                 <label class="form-label" for="email">Email or Phone</label>
                                 <input
                                     class="form-control form-control-lg text-white bg-dark border-light border-opacity-25 bg-opacity-25"
-                                    id="email" required="" type="email"/>
+                                    id="email" name="email" required="" type="email"/>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" for="password">Password</label>
                                 <div class="input-group">
                                     <input
                                         class="form-control form-control-lg text-white bg-dark border-light border-opacity-25 bg-opacity-25"
-                                        id="password" required="" type="password"/>
+                                        id="password" name="password" required="" type="password"/>
                                 </div>
                             </div>
                             <div class="d-grid mb-3">
@@ -41,7 +42,7 @@
                                 </button>
                             </div>
                             <div class="text-center mb-4">
-                                <a class="text-decoration-none small text-white" href="{{ route('second', [ 'auth' , 'forgetpassword']) }}">Forgot
+                                <a class="text-decoration-none small text-white" href="">Forgot
                                     Password?</a>
                             </div>
                             <div class="divider small text-white opacity-25">or</div>
