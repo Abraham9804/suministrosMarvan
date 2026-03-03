@@ -13,7 +13,7 @@
 
         <ul>
             <li>
-                <a href="#">
+                <a href="{{ route('dashboard') }}">
                     <span class="nav-link-text" data-i18n>Control Center</span>
                 </a>
             </li>
