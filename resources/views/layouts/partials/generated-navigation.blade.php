@@ -13,22 +13,22 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['dashboard', 'control-center']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Control Center</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['dashboard', 'subscription']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Subscription & Billing</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['dashboard', 'marketing']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Marketing & Sales</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['dashboard', 'project-management']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Project Management</span>
                 </a>
             </li>
@@ -38,7 +38,7 @@
     <li class="nav-title"><span>Config</span></li>
 
     <li>
-        <a href="{{ route('any', 'appintel') }}">
+        <a href="#">
             <svg class="sa-icon">
                 <use href="/icons/sprite.svg#cpu"></use>
             </svg>
@@ -64,34 +64,35 @@
 
                 <ul>
                     <li>
-                        <a href="{{ route('second', ['auth', 'login']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>Login</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['auth', 'register']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>Register</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['auth', 'forgetpassword']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>Forget Password</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['auth', 'twofactor']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>2FA</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['auth', 'lockscreen']) }}">
+                        <a href="#">
+
                             <span class="nav-link-text" data-i18n>Lock Screen</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="{{ route('second', ['email', 'email-design']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Email Templates</span>
                 </a>
             </li>
@@ -102,24 +103,25 @@
 
                 <ul>
                     <li>
-                        <a href="{{ route('second', ['error', '404']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>404 Not Found</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['error', '404-2']) }}">
+                        <a href="#">
+
                             <span class="nav-link-text" data-i18n>404 Not Found 2</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['error', '500']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>500 Internal Server</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="{{ route('any', 'profile') }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>User Profile</span>
                 </a>
             </li>
@@ -136,7 +138,7 @@
 
         <ul>
             <li>
-                <a href="{{ route('any', 'messenger') }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Messenger & Chat</span>
                 </a>
             </li>
@@ -147,19 +149,19 @@
 
                 <ul>
                     <li>
-                        <a href="{{ route('second', ['email', 'systemmail']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>System Mail</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ route('second', ['email', 'systemmail-read']) }}">
+                        <a href="#">
                             <span class="nav-link-text" data-i18n>Mail Read</span>
                         </a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="{{ route('any', 'usercontact') }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>User Contact</span>
                 </a>
             </li>
@@ -176,22 +178,23 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['forum', 'index']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Forum General</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forum', 'threads']) }}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Forum Threads</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forum', 'discussion']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Forum Discussions</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forum', 'search']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Search</span>
                 </a>
             </li>
@@ -199,7 +202,7 @@
     </li>
 
     <li>
-        <a href="{{ route('any', 'landing') }}" target="_blank">
+        <a href="#" target="_blank">
             <svg class="sa-icon">
                 <use href="/icons/sprite.svg#zap"></use>
             </svg>
@@ -219,117 +222,119 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['ui', 'alerts']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Alerts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'accordions']) }}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Accordions</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'badges']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Badges</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'buttons']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Buttons</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'buttongroup']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Button Group</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'cards']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Cards</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'breadcrumbs']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Breadcrumbs</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'dropdowns']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Dropdowns</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'navbars']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Navbars</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'pagination']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Pagination</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'scrollspy']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>ScrollSpy</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'collapse']) }}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Collapse</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'modal']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Modal</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'tabs-pills']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Tabs & Pills</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'tooltips']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Tooltips</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'popovers']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Popovers</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'toasts']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Toasts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'progressbars']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Progress Bars</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'spinners']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Spinners</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'carousels']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Carousels</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'panels']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Panels</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'list-filter']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>List Filter</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['ui', 'sidepanels']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Side Panels</span>
                 </a>
             </li>
@@ -346,57 +351,61 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['utilities', 'borders']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Borders</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'display-property']) }}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Display Property</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'responsivegrid']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Responsive Grid</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'position']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Position</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'colorpalette']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Color Palette</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'typography']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Typography</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'sizing']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Sizing</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'spacing']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Spacing</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'flexbox']) }}">
+                <a href="#">
+                    <span class="nav-link-text" data-i18n>Flexbox</span>
+                </a>
+            </li>
                     <span class="nav-link-text" data-i18n>Flexbox</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'helpers']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Helpers</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['utilities', 'visibility-generator']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Visibility Generator</span>
                 </a>
             </li>
@@ -413,27 +422,27 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['icons', 'system']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>System Icons</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['icons', 'fontawesome']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>FontAwesome 5.3</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['icons', 'smartadmin']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>SmartAdmin Icons 1.0</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['icons', 'stackgenerator']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Stack Generator</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['icons', 'stacklibrary']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Stack Library</span>
                 </a>
             </li>
@@ -450,12 +459,13 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['tables', 'basic']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Basic Tables</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['tables', 'style-generator']) }}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Tables Style Generator</span>
                 </a>
             </li>
@@ -472,22 +482,22 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['forms', 'inputs']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Inputs</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forms', 'checkbox-radio']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Checkbox & Radio</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forms', 'groups']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Groups</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['forms', 'validation']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Validation</span>
                 </a>
             </li>
@@ -507,38 +517,38 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['smarttables', 'minimal'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Minimal Settings</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'responsive'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Responsive Settings</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'importexport-data'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Import & Export Data</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'json-source'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>JSON Data Source</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'manage-records'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Manage Records</span>
                     <span class="badge bg-warning text-dark badge-end">New</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'fuzzy-matching'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Fuzzy Matching</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['smarttables', 'server-side'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Server-Side Mode</span>
                 </a>
             </li>
@@ -555,102 +565,112 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['apex', 'area'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Area Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'bar'])}}">
+                <a href="#">
+
                     <span class="nav-link-text" data-i18n>Bar Charts</span>
                 </a>
             </li>
-            <li>
-                <a href="{{ route('second', ['apex', 'box-whisker'])}}">
+            <li>{ 
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Box & Whisker Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'bubble'])}}">
+                <a href="#">
+                    <span class="nav-link-text" data-i18n>Bubble Charts</span>
+                </a>
+            </li>
                     <span class="nav-link-text" data-i18n>Bubble Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'candlestick'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Candlestick Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'column'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Column Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'funnel'])}}">
+                <a href="#">
+                    <span class="nav-link-text" data-i18n>Funnel Charts</span>
+                </a>
+            </li>
                     <span class="nav-link-text" data-i18n>Funnel Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'heatmap'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Heatmap Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'line'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Line Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'mixed-combo'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Mixed/Combo Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'pie-donut'])}}">
+                <a href="#">
+                    <span class="nav-link-text" data-i18n>Pie/Donuts</span>
+                </a>
+            </li>
                     <span class="nav-link-text" data-i18n>Pie/Donuts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'polar-area'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Polar Area Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'radar'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Radar Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'radialbars-circle'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>RadialBars/Circle Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'range-area'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Range Area Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'scatter'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Scatter Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'slope'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Slope Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'sparkline'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Sparklines</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'timeline'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Timeline Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['apex', 'treemap'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Treemap Charts</span>
                 </a>
             </li>
@@ -667,17 +687,17 @@
 
         <ul>
             <li>
-                <a href="{{ route('second', ['databites', 'peity-charts']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Peity Charts</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['databites', 'streamline']) }}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Streamline</span>
                 </a>
             </li>
             <li>
-                <a href="{{ route('second', ['databites', 'easy-pie-chart'])}}">
+                <a href="#">
                     <span class="nav-link-text" data-i18n>Easy Pie Chart</span>
                 </a>
             </li>
@@ -685,7 +705,7 @@
     </li>
 
     <li>
-        <a href="{{ route('any', 'fullcalendar')}}">
+        <a href="#">
             <svg class="sa-icon">
                 <use href="/icons/sprite.svg#calendar"></use>
             </svg>
