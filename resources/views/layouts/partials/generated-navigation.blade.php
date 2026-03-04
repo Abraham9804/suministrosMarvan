@@ -1,25 +1,14 @@
 <ul id="js-nav-menu" class="nav-menu">
 
-    <li class="nav-title"><span>Insights</span></li>
-
-    <li class="nav-item">
-        <a href="#" title="Dashboards" data-filter-tags>
-            <svg class="sa-icon">
-                <use href="/icons/sprite.svg#trello"></use>
-            </svg>
-            <span class="nav-link-text" data-i18n>Dashboards</span>
-            <span class="badge bg-danger-700 badge-end">New</span>
-        </a>
-
-        <ul>
-            <li>
-                <a href="{{ route('dashboard') }}">
-                    <span class="nav-link-text" data-i18n>Control Center</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
+    <li class="nav-title"><span>Panel de control</span></li>
+        <li>
+            <a href="{{ route('dashboard') }}">
+                <svg class="sa-icon sa-medium">
+                    <use href="icons/sprite.svg#bar-chart"></use>
+                </svg>
+                <span class="nav-link-text" data-i18n>Dashboard</span>
+            </a>
+        </li>
     <li class="nav-title"><span>Config</span></li>
 
     <li>
