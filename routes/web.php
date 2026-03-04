@@ -6,6 +6,7 @@
     Route::middleware('auth')->group(function () {
         Route::get('/', function () {
             return view('dashboard.marketing');
-        });
+        })->name('dashboard');
     });
    
+    
