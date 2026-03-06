@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 py-3" style="z-index: 1000;">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img alt="logo" src="/img/logo-light.svg"/>
+                <img alt="logo" src="/img/logo-rosa.png" width="200"/>
             </a>
             <div class="ms-auto d-flex gap-2">
                 <a class="btn btn-link text-white border-0 text-decoration-none" href="">Login</a>
